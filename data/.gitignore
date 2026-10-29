@@ -1,0 +1,19 @@
+# Ignore everything
+*
+# But these files
+!.gitignore
+!.gitattributes
+!LICENSE
+!readme
+!readme.MD
+!README
+# And these filetypes
+!*.dat
+!*.clp
+!*.ord
+!*.raw
+!*.top
+!*.txt
+!*.wrl
+# Even if they are in subdirectories
+!**/

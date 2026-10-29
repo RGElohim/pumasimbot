@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.14)
+project(motion_planner)
+
+## Compile as C++14
+add_compile_options(-std=c++14)
+find_package(Boost COMPONENTS thread filesystem REQUIRED)
+
+set(EXECUTABLE_OUTPUT_PATH "${ROOT_BIN_DIR}/motion_planner")
+
+add_executable(GoTo_State_Machine
+  GoTo_State_Machine.cpp
+)
+
+# Linker dependencies
+target_link_libraries(GoTo_State_Machine
+  camara_lib
+  minibot
+  minibot-client
+  clipsclient
+  Boost::thread
+  Boost::filesystem
+  ${BOOST_LIBRARIES}
+)
+
+#ruta agregada para guardar las fotos
+#en carpetas de datos del proyecto
+target_compile_definitions(GoTo_State_Machine PRIVATE 
+    PROJECT_ROOT_DIR="${CMAKE_SOURCE_DIR}"
+)

@@ -1,0 +1,3732 @@
+../motion_planner/GoTo_State_Machine -x 0.112500 -y 0.167500 -a 0.000000 -v 0.237500 -z 0.730000 -s laser -n 16 -t -2.356100 -r 4.712200 -p ../../data/ -e obstacle -advance 0.100000 -MaxAngle 1.570796 -selection 11 -largest 0.100000 -noise 0 -omni 1 -vq 0 -size_vq 0 -pr_out 0 -out_file obstacle -nn_rec 0 -nn_unk 0 -search 1
+
+observations file: ../../data/obstacle.raw
+
+ Radio robot 0.020000 
+( origen 0.112500 0.167500 0.000000 )
+( destination 0.237500 0.730000 )
+search method 1
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+1 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.5)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.254902 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1000.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+2 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 25.1)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.250980 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1001.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+3 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 25.1)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.250980 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1002.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+4 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.7)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.247059 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1003.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+5 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.5)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.254902 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1004.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+6 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 25.1)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.250980 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1005.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+7 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.5)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.254902 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1006.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+8 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.5)
+    (315°, 24.7)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.247059 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1007.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+9 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.1)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.250980 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1008.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+10 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1009.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+11 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.1)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 6.7)
+    ( 45°, 15.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.250980 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1010.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+12 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1011.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+13 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 25.5)
+    (270°, 6.3)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.254902 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1012.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+14 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.4)
+    (135°, 7.8)
+    ( 90°, 5.5)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1013.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+15 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.7)
+    (270°, 5.9)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 10.6)
+    ( 90°, 7.1)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.247059 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1014.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+16 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1015.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+17 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 24.3)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.8)
+    ( 90°, 7.1)
+    ( 45°, 15.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1016.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+18 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.5)
+    (315°, 23.5)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.4)
+    (135°, 9.0)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.235294 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1017.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+19 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.0)
+    ( 90°, 6.7)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1018.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+20 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.5)
+    (315°, 23.9)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.4)
+    (135°, 8.6)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.239216 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1019.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+21 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.7)
+    (270°, 5.9)
+    (225°, 8.2)
+    (180°, 2.4)
+    (135°, 9.4)
+    ( 90°, 6.7)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.247059 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1020.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+22 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.5)
+    (315°, 23.9)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.4)
+    (135°, 8.6)
+    ( 90°, 6.3)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.239216 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1021.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+23 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.9)
+    (315°, 24.3)
+    (270°, 5.9)
+    (225°, 7.8)
+    (180°, 2.4)
+    (135°, 9.0)
+    ( 90°, 6.7)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.243137 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1022.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+24 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.1)
+    (315°, 23.1)
+    (270°, 5.5)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 8.2)
+    ( 90°, 6.7)
+    ( 45°, 14.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.231373 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1023.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+25 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.5)
+    (315°, 23.5)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.4)
+    (135°, 9.0)
+    ( 90°, 7.1)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.235294 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1024.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+26 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.7)
+    (315°, 22.7)
+    (270°, 5.1)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 7.8)
+    ( 90°, 6.3)
+    ( 45°, 13.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.227451 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1025.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+27 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.1)
+    (315°, 23.1)
+    (270°, 5.5)
+    (225°, 7.5)
+    (180°, 2.0)
+    (135°, 9.0)
+    ( 90°, 7.1)
+    ( 45°, 14.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.231373 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1026.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+28 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.7)
+    (315°, 22.7)
+    (270°, 5.1)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 7.8)
+    ( 90°, 6.3)
+    ( 45°, 14.1)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.227451 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1027.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+29 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.1)
+    (315°, 23.1)
+    (270°, 5.5)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 11.0)
+    ( 90°, 8.2)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.231373 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1028.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+30 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.4)
+    (315°, 22.4)
+    (270°, 5.1)
+    (225°, 6.7)
+    (180°, 2.0)
+    (135°, 8.6)
+    ( 90°, 7.1)
+    ( 45°, 14.1)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1029.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+31 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.7)
+    (315°, 23.1)
+    (270°, 5.1)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 11.0)
+    ( 90°, 8.6)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.231373 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1030.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+32 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.4)
+    (315°, 22.4)
+    (270°, 5.1)
+    (225°, 6.7)
+    (180°, 1.6)
+    (135°, 9.0)
+    ( 90°, 7.1)
+    ( 45°, 14.1)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1031.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+33 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 23.1)
+    (315°, 22.7)
+    (270°, 5.1)
+    (225°, 7.1)
+    (180°, 2.0)
+    (135°, 11.4)
+    ( 90°, 8.6)
+    ( 45°, 15.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.231373 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1032.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+34 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.0)
+    (315°, 22.4)
+    (270°, 4.7)
+    (225°, 6.3)
+    (180°, 1.6)
+    (135°, 7.8)
+    ( 90°, 6.3)
+    ( 45°, 13.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1033.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+35 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.7)
+    (315°, 22.4)
+    (270°, 5.1)
+    (225°, 6.7)
+    (180°, 2.0)
+    (135°, 10.6)
+    ( 90°, 8.2)
+    ( 45°, 14.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.227451 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1034.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+36 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.6)
+    (135°, 7.5)
+    ( 90°, 5.9)
+    ( 45°, 12.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1035.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+37 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.4)
+    (315°, 22.7)
+    (270°, 5.1)
+    (225°, 6.7)
+    (180°, 1.6)
+    (135°, 9.4)
+    ( 90°, 7.8)
+    ( 45°, 14.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.227451 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1036.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+38 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.2)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.2)
+    (135°, 6.7)
+    ( 90°, 5.5)
+    ( 45°, 12.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1037.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+39 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.0)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 6.3)
+    (180°, 1.6)
+    (135°, 8.2)
+    ( 90°, 7.1)
+    ( 45°, 13.7)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1038.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+40 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 20.8)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.5)
+    (180°, 1.2)
+    (135°, 5.5)
+    ( 90°, 4.7)
+    ( 45°, 11.8)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1039.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+41 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.6)
+    (135°, 6.7)
+    ( 90°, 5.9)
+    ( 45°, 13.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1040.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+42 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 20.8)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.5)
+    (180°, 1.2)
+    (135°, 5.1)
+    ( 90°, 4.3)
+    ( 45°, 11.8)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1041.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+43 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.6)
+    (135°, 6.3)
+    ( 90°, 5.1)
+    ( 45°, 12.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1042.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+44 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.2)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.5)
+    (180°, 1.2)
+    (135°, 5.9)
+    ( 90°, 4.7)
+    ( 45°, 12.2)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1043.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+45 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.4)
+    (270°, 4.7)
+    (225°, 6.3)
+    (180°, 1.6)
+    (135°, 6.7)
+    ( 90°, 5.1)
+    ( 45°, 12.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1044.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+46 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.2)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.5)
+    (180°, 1.2)
+    (135°, 5.9)
+    ( 90°, 4.7)
+    ( 45°, 12.2)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1045.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+47 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.0)
+    (315°, 22.4)
+    (270°, 4.7)
+    (225°, 6.3)
+    (180°, 1.6)
+    (135°, 6.7)
+    ( 90°, 5.5)
+    ( 45°, 13.3)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1046.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+48 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 20.0)
+    (315°, 21.6)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.2)
+    (135°, 5.9)
+    ( 90°, 4.3)
+    ( 45°, 11.4)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1047.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+49 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 6.3)
+    (180°, 1.6)
+    (135°, 6.3)
+    ( 90°, 5.1)
+    ( 45°, 12.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1048.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+50 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 20.8)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.5)
+    (180°, 1.2)
+    (135°, 5.5)
+    ( 90°, 4.3)
+    ( 45°, 11.8)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1049.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+51 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 22.0)
+    (315°, 22.4)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.6)
+    (135°, 6.3)
+    ( 90°, 5.1)
+    ( 45°, 12.9)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.223529 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1050.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+52 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 20.8)
+    (315°, 21.6)
+    (270°, 4.3)
+    (225°, 5.1)
+    (180°, 1.2)
+    (135°, 5.1)
+    ( 90°, 3.9)
+    ( 45°, 11.4)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.215686 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1051.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance 0.100000
+
+
+ ************************************************************
+distance destination 0.576222 threshold 0.252000
+53 Pose robot 0.112500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 21.6)
+    (315°, 22.0)
+    (270°, 4.7)
+    (225°, 5.9)
+    (180°, 1.2)
+    (135°, 5.9)
+    ( 90°, 4.7)
+    ( 45°, 12.5)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.219608 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance -0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1052.jpg
+¡Proceso exitoso! Foto guardada'.
+movement without noise: angle  0.000000 distance -0.100000
+
+
+ ************************************************************
+distance destination 0.605831 threshold 0.252000
+54 Pose robot 0.012500 0.167500 0.000000 
+get_sensor_values_real
+read_dist_rpc
+ReadDistanceReply::getResult
+	success=1
+	50 = 2
+	alen = 12
+	50 = 98
+dist->count = 12
+dist->data = (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000) (-1.000000, -1.000000)
+Obstacle sensors (0-12):None
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.000000
+range observations.sensors[13] 0.000000
+range observations.sensors[14] 0.000000
+range observations.sensors[15] 0.000000
+Light sensors:
+    (  0°, 19.6)
+    (315°, 20.8)
+    (270°, 3.9)
+    (225°, 4.7)
+    (180°, 1.2)
+    (135°, 5.1)
+    ( 90°, 3.5)
+    ( 45°, 10.6)
+light source angle 0.000000
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.000000
+noised range sensors[13] 0.000000
+noised range sensors[14] 0.000000
+noised range sensors[15] 0.000000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.050000
+right sensor 0.100000
+angle_light 0.000000 quantized destination 3 
+quantized inputs 2
+intensity 0.207843 quantized intensity 0 
+FORWARD
+Student reactive behavior movement avoidance destination: angle  0.000000 distance 0.100000
+[Info Cámara] Imagen guardada correctamente en: /home/elohimrg/pumasimbot3/data/img/img1053.jpg
